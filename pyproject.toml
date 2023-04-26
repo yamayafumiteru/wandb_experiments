@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "wandb_experiments"
+version = "0.1.0"
+description = ""
+authors = ["yamayafumiteru <fumiteru322@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = []
+
+[tool.pdm.build]
+includes = []
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+authors = [
+    {name = "yamayafumiteru", email = "fumiteru322@gmail.com"},
+]
+requires-python = ">=3.9,<4.0"
+dependencies = [
+    "wandb>=0.15.0",
+]
+name = "wandb_experiments"
+version = "0.1.0"
+description = ""
+
+[project.urls]
