@@ -24,5 +24,8 @@ for epoch in range(2, epochs):
     # log metrics to wandb
     wandb.log({"acc": acc, "loss": loss})
 
-# [optional] finish the wandb run, necessary in notebooks
+accuracy = 0.9
+# 通知の送信
+wandb.alert(title="WandBからの通知", text=f"今の正解率は {accuracy} です。")
+
 wandb.finish()
