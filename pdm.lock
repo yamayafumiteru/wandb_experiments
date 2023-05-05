@@ -147,7 +147,7 @@ summary = "HTTP library with thread-safe connection pooling, file post, and more
 
 [[package]]
 name = "wandb"
-version = "0.15.0"
+version = "0.15.1"
 requires_python = ">=3.6"
 summary = "A CLI and library for interacting with the Weights and Biases API."
 dependencies = [
@@ -171,7 +171,7 @@ dependencies = [
 [metadata]
 lock_version = "4.2"
 groups = ["default"]
-content_hash = "sha256:cffd5b55d433364ad3672dc9f6e4572848fbc5ea5abcf7dcbbd6755855a456a8"
+content_hash = "sha256:2c20d0866e952a5c66f381933c94e319dd3cb8e33efd2c1790f9606192948bd7"
 
 [metadata.files]
 "appdirs 1.4.4" = [
@@ -461,7 +461,7 @@ content_hash = "sha256:cffd5b55d433364ad3672dc9f6e4572848fbc5ea5abcf7dcbbd675585
     {url = "https://files.pythonhosted.org/packages/21/79/6372d8c0d0641b4072889f3ff84f279b738cd8595b64c8e0496d4e848122/urllib3-1.26.15.tar.gz", hash = "sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305"},
     {url = "https://files.pythonhosted.org/packages/7b/f5/890a0baca17a61c1f92f72b81d3c31523c99bec609e60c292ea55b387ae8/urllib3-1.26.15-py2.py3-none-any.whl", hash = "sha256:aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"},
 ]
-"wandb 0.15.0" = [
-    {url = "https://files.pythonhosted.org/packages/92/93/89d284532f47f708b90d4f4b07af125670ee60856f3e2bf49815b7c8a36d/wandb-0.15.0-py3-none-any.whl", hash = "sha256:d828e2972fdd647b844b62aea30b6bbf09de8bb1ec3eca2f504fc9ab4dc67bf3"},
-    {url = "https://files.pythonhosted.org/packages/b4/d2/7fd1b3e353cff0f80df40d1226af902472185e515aeb609a65e7309a40d1/wandb-0.15.0.tar.gz", hash = "sha256:b896d4043b45407d09a43ba5348da0b1b9f425a2591f45307f633d3b88d26ebf"},
+"wandb 0.15.1" = [
+    {url = "https://files.pythonhosted.org/packages/1b/98/d492f97ca278e9a4b06edd1c801537b539baff8fa2f4ce57947c58bcd9db/wandb-0.15.1-py3-none-any.whl", hash = "sha256:0c49d3c5881ed6c4b0752ba6b069ecfed28df9459fb0f59fc93f1b6ceda94bcb"},
+    {url = "https://files.pythonhosted.org/packages/9a/20/202219963d4d1c060ad687a21c2f5556405429ffa6b51123933988904a6f/wandb-0.15.1.tar.gz", hash = "sha256:8e92574c01d3d1d4f879a33bb8af54f0dbfb07fc00b1e2ec1070ce31839c7b14"},
 ]
